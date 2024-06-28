@@ -1,4 +1,4 @@
-## rsschool
+
 # Dmitry Malashchenko
 ## Contacts
 
