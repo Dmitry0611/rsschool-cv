@@ -15,3 +15,18 @@ I am junior frontend devoleper. I appre-ciate this profession for its innovative
 * "Cafe de Paris" Waiter
 * "Vino&Vino" Caviste
 * "Cafe de Paris" Waiter
+
+## Education
+
+* [IT-Academy "Web-site development using HTML, CSS and JavaScript"](https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript/)
+
+* [Udemy "JavaScript  + React"](https://www.udemy.com/course/javascript_full/?couponCode=JUST4U02223)
+
+* [Udemy "Complete JavaScript Course"](https://www.udemy.com/course/javascript-ru/?couponCode=JUST4U02223)
+
+## Skills
+
+* HTML
+* CSS/SASS
+* JavaScript (Basic)
+* Git
