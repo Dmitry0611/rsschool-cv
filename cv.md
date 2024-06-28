@@ -30,3 +30,19 @@ I am junior frontend devoleper. I appre-ciate this profession for its innovative
 * CSS/SASS
 * JavaScript (Basic)
 * Git
+
+## Code Example
+
+``` JavaScript
+function sumNumber(a, b) {
+    return a + b
+}
+
+console.log(sumNumber(10, 10)); // 20
+```
+
+## Languages
+
+* Russian ― Native
+* Belarusian ― Native
+* English ― A2
