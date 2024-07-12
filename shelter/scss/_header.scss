@@ -1,0 +1,81 @@
+header {
+    min-height: 908px;
+    background: url('../img/header_bg.jpg') center center / cover no-repeat;
+    .container {
+
+        .logo_nav {
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header_logo {
+
+                .logo_title {
+
+                    a {
+                        font-family: 'Georgia', serif;
+                        font-weight: 400;
+                        font-size: 32px;
+                        letter-spacing: 2px;
+                        color: $fontColorCream;
+                        text-decoration: none;
+                    }
+                }
+                .logo_subtitle {
+                    font-family: 'Arial', sans-serif;
+                    font-weight: 400;
+                    font-size: 13px;
+                    letter-spacing: 1.5px;
+                    color: $fontColorWhite;
+                    padding-top: 10px;
+                }
+            }
+            .header_nav {
+
+                a {
+                    font-family: 'Arial', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: $fontColorGray;
+                    text-decoration: none;
+                    margin-left: 35px;
+                    padding-bottom: 3px;
+                    transition: 0.7s;
+
+                    &:first-child {
+                        margin-left: 0px;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                        color: $fontColorWhite;
+                        border-bottom: 3px solid #F1CDB3;
+                    }
+                }
+
+            }
+        }
+        .header_content {
+            margin-top: 253px;
+
+            .header_content_title {
+                font-family: 'Georgia', serif;
+                font-weight: 400;
+                font-size: 44px;
+                color: $fontColorWhite;
+                line-height: 130%;
+            }
+            .header_content_text {
+                margin-top: 42px;
+                font-family: 'Arial', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                color: $fontColorGray;
+                line-height: 160%;
+            }
+            .header_content_btn {
+                margin-top: 42px;
+            }
+        }
+    }
+}
