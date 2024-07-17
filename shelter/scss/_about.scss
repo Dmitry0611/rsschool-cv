@@ -1,0 +1,38 @@
+
+.about {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: $fontColorWhite;
+    .container {
+
+        .about_shelter {
+            display: flex;
+            justify-content: center;
+
+            .about_shelter_left {
+                width: 35%;
+                text-align: right;
+            }
+            .about_shelter_right {
+                padding-left: 120px;
+                padding-top: 14px;
+                .about_title {
+                    font-family: 'Georgia', serif;
+                    font-weight: 400;
+                    font-size: 35px;
+                    letter-spacing: 1.8px;
+                    line-height: 130%;
+                    color: $fontColorGray2;
+                }
+                .about_text {
+                    margin-top: 25px;
+                    font-family: 'Arial', serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: $fontColorGray3;
+                    line-height: 160%;
+                }
+            }
+        }
+    }
+}

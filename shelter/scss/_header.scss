@@ -75,6 +75,18 @@ header {
             }
             .header_content_btn {
                 margin-top: 42px;
+                width: 207px;
+                height: 52px;
+                background-color: $fontColorCream;
+                font-family: 'Georgia', serif;
+                font-weight: 400;
+                font-size: 17px;
+                letter-spacing: 1.2px;
+                border-radius: 100px;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
     }
