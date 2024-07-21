@@ -1,5 +1,6 @@
 
 .help {
+    min-height: 611px;
     padding-top: 80px;
     background-color: $bgColorWhite;
     margin-bottom: 100px;
@@ -22,9 +23,7 @@
                 padding-top: 60px;
                 .inner_up {
                     text-align: center;
-                    img {
 
-                    }
                     .inner_text {
                         padding-top: 30px;
                         font-family: 'Georgia', serif;
@@ -43,9 +42,7 @@
                 padding-top: 55px;
                 .inner_down {
                     text-align: center;
-                    img {
 
-                    }
                     .inner_text {
                         padding-top: 30px;
                         font-family: 'Georgia', serif;
