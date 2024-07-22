@@ -1,6 +1,8 @@
-.header {
-    min-height: 908px;
-    background: url('../img/header_bg.jpg') center center / cover no-repeat;
+
+.header_pets {
+    min-height: 120px;
+    background: none;
+
     .container {
 
         .logo_nav {
@@ -12,13 +14,12 @@
             .header_logo {
 
                 .logo_title {
-
                     a {
                         font-family: 'Georgia', serif;
                         font-weight: 400;
                         font-size: 32px;
                         letter-spacing: 2px;
-                        color: $fontColorCream;
+                        color: $fontColorGray2;
                         text-decoration: none;
                     }
                 }
@@ -27,17 +28,16 @@
                     font-weight: 400;
                     font-size: 13px;
                     letter-spacing: 1.5px;
-                    color: $fontColorWhite;
+                    color: $fontColorBlack;
                     padding-top: 10px;
                 }
             }
             .header_nav {
-
                 a {
                     font-family: 'Arial', sans-serif;
                     font-weight: 400;
                     font-size: 15px;
-                    color: $fontColorGray;
+                    color: $fontColorGray2;
                     text-decoration: none;
                     margin-left: 35px;
                     padding-bottom: 3px;
@@ -48,44 +48,9 @@
                     }
                     &:hover {
                         cursor: pointer;
-                        color: $fontColorWhite;
+                        color: $fontColorBlack;
                         border-bottom: 3px solid #F1CDB3;
                     }
-                }
-
-            }
-        }
-        .header_content {
-            margin-top: 253px;
-
-            .header_content_title {
-                font-family: 'Georgia', serif;
-                font-weight: 400;
-                font-size: 44px;
-                color: $fontColorWhite;
-                line-height: 130%;
-            }
-            .header_content_text {
-                margin-top: 42px;
-                font-family: 'Arial', sans-serif;
-                font-weight: 400;
-                font-size: 15px;
-                color: $fontColorGray;
-                line-height: 160%;
-            }
-            .header_content_btn {
-                margin-top: 42px;
-                width: 207px;
-                height: 52px;
-                background-color: $fontColorCream;
-                font-family: 'Georgia', serif;
-                font-weight: 400;
-                font-size: 17px;
-                letter-spacing: 1.2px;
-                border-radius: 100px;
-
-                &:hover {
-                    cursor: pointer;
                 }
             }
         }
