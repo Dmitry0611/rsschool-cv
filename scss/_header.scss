@@ -74,12 +74,17 @@
                 line-height: 160%;
             }
             .header_content_btn {
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                padding-top: 15px;
                 margin-top: 42px;
                 width: 207px;
                 height: 52px;
                 background-color: $fontColorCream;
                 font-family: 'Georgia', serif;
                 font-weight: 400;
+                color: $fontColorBlack;
                 font-size: 17px;
                 letter-spacing: 1.2px;
                 border-radius: 100px;
