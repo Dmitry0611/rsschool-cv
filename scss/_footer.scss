@@ -1,7 +1,7 @@
 
 .footer {
     min-height: 350px;
-    background: url('../img/footer_bg.png') center center / cover no-repeat;
+    background: url('../img/footer-gradient-background.png') center center / cover no-repeat;
 
     .container {
 
@@ -130,6 +130,9 @@
                         }
                     }
                 }
+            }
+            .footer_flex_img {
+                margin-left: 160px;
             }
         }
     }

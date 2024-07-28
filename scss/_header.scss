@@ -1,6 +1,6 @@
 .header {
     min-height: 908px;
-    background: url('../img/header_bg.jpg') center center / cover no-repeat;
+    background: url('../img/start-screen-gradient-background.jpg') center center / cover no-repeat;
     .container {
 
         .logo_nav {
@@ -55,43 +55,49 @@
 
             }
         }
-        .header_content {
-            margin-top: 253px;
+        .header_content_flex {
+            display: flex;
+            .header_content {
+                margin-top: 253px;
 
-            .header_content_title {
-                font-family: 'Georgia', serif;
-                font-weight: 400;
-                font-size: 44px;
-                color: $fontColorWhite;
-                line-height: 130%;
-            }
-            .header_content_text {
-                margin-top: 42px;
-                font-family: 'Arial', sans-serif;
-                font-weight: 400;
-                font-size: 15px;
-                color: $fontColorGray;
-                line-height: 160%;
-            }
-            .header_content_btn {
-                display: block;
-                text-align: center;
-                text-decoration: none;
-                padding-top: 15px;
-                margin-top: 42px;
-                width: 207px;
-                height: 52px;
-                background-color: $fontColorCream;
-                font-family: 'Georgia', serif;
-                font-weight: 400;
-                color: $fontColorBlack;
-                font-size: 17px;
-                letter-spacing: 1.2px;
-                border-radius: 100px;
-
-                &:hover {
-                    cursor: pointer;
+                .header_content_title {
+                    font-family: 'Georgia', serif;
+                    font-weight: 400;
+                    font-size: 44px;
+                    color: $fontColorWhite;
+                    line-height: 130%;
                 }
+                .header_content_text {
+                    margin-top: 42px;
+                    font-family: 'Arial', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: $fontColorGray;
+                    line-height: 160%;
+                }
+                .header_content_btn {
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    padding-top: 15px;
+                    margin-top: 42px;
+                    width: 207px;
+                    height: 52px;
+                    background-color: $fontColorCream;
+                    font-family: 'Georgia', serif;
+                    font-weight: 400;
+                    color: $fontColorBlack;
+                    font-size: 17px;
+                    letter-spacing: 1.2px;
+                    border-radius: 100px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+            .header_content_img {
+                margin: 84px 0 0 42px;
             }
         }
     }
