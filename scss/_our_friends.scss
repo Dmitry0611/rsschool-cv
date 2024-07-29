@@ -1,0 +1,121 @@
+
+.our_friends {
+    padding-top: 80px;
+    background-color: $bgSectionOurFriends;
+    .container {
+
+        .our_friends_title {
+            font-family: 'Georgia', serif;
+            font-weight: 400;
+            font-size: 35px;
+            letter-spacing: 1.8px;
+            line-height: 130%;
+            color: $fontColorGray2;
+            text-align: center;
+        }
+        .carousel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+            .btn_left {
+                width: 52px;
+                height: 52px;
+                border-radius: 100px;
+                border-style: none;
+                background-color: $bgArrowSlider;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .carousel_cards {
+                display: flex;
+
+                .card_inner {
+                    background-color: $bgColorCard;
+                    width: 270px;
+                    height: 435px;
+                    border-radius: 9px;
+                    margin-right: 90px;
+
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+
+                    .name {
+                        padding-top: 30px;
+                        font-family: 'Georgia', serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        letter-spacing: 1.8px;
+                        color: $fontColorGray2;
+                        text-align: center;
+                    }
+                    .btn_card {
+                        width: 187px;
+                        height: 52px;
+                        text-align: center;
+                        margin-left: 41.5px;
+                        margin-top: 30px;
+                        font-family: 'Georgia', serif;
+                        font-weight: 400;
+                        font-size: 17px;
+                        letter-spacing: 1.8px;
+                        line-height: 130%;
+                        color: $fontColorBlack;
+                        text-align: center;
+                        background-color: $bgColorCardBtn;
+                        border-radius: 100px;
+                        border-color: $borderColorCream;
+                        border-style: solid;
+                        transition: 1s;
+
+                        &:hover {
+                            cursor: pointer;
+                            background-color: gray;
+                            color: white;
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+            .btn_right {
+                width: 52px;
+                height: 52px;
+                border-radius: 100px;
+                border-style: none;
+                background-color: $bgArrowSlider;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .btn_get {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 261px;
+            height: 52px;
+            border-radius: 100px;
+            background-color: $bgColorCream;
+            margin: 0 auto;
+            text-decoration: none;
+            font-family: 'Georgia', serif;
+            font-weight: 400;
+            font-size: 17px;
+            letter-spacing: 1.8px;
+            line-height: 130%;
+            color: $fontColorBlack;
+            transition: 1s;
+
+            &:hover {
+                cursor: pointer;
+                background-color: gray;
+                color: white;
+                transition: 1s;
+            }
+        }
+    }
+}

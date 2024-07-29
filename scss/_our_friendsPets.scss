@@ -1,0 +1,178 @@
+.our_friends {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: $bgSectionOurFriends;
+    .container {
+
+        .our_friends_title {
+            font-family: 'Georgia', serif;
+            font-weight: 400;
+            font-size: 35px;
+            letter-spacing: 1.8px;
+            line-height: 130%;
+            color: $fontColorGray2;
+            text-align: center;
+            padding-bottom: 45px;
+        }
+        .cards_dogs {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 60px;
+            .card_inner {
+                background-color: $bgColorCard;
+                width: 270px;
+                height: 435px;
+                border-radius: 9px;
+                margin-bottom: 30px;
+
+                .name {
+                    padding-top: 30px;
+                    font-family: 'Georgia', serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    letter-spacing: 1.8px;
+                    color: $fontColorGray2;
+                    text-align: center;
+                }
+                .btn_card {
+                    width: 187px;
+                    height: 52px;
+                    text-align: center;
+                    margin-left: 41.5px;
+                    margin-top: 30px;
+                    font-family: 'Georgia', serif;
+                    font-weight: 400;
+                    font-size: 17px;
+                    letter-spacing: 1.8px;
+                    line-height: 130%;
+                    color: $fontColorBlack;
+                    text-align: center;
+                    background-color: $bgColorCardBtn;
+                    border-radius: 100px;
+                    border-color: $borderColorCream;
+                    border-style: solid;
+                    transition: 1s;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: gray;
+                        color: white;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+        .nav_cards {
+            display: flex;
+            justify-content: center;
+
+            .btn_two_arrow_back {
+                width: 52px;
+                height: 52px;
+                border-radius: 100px;
+                border-style: solid;
+                font-family: 'Georgia', serif;
+                font-weight: 400;
+                font-size: 20px;
+                letter-spacing: 1.8px;
+                line-height: 115%;
+                color: $fontColorGray;
+                border-color: $fontColorGray;
+                background-color: $bgSectionOurFriends;
+                transition: 1s;
+                scale: 1;
+
+                &:hover {
+                    transition: 1s;
+                    scale: 1.1;
+                    cursor: pointer;
+                }
+            }
+            .btn_one_arrow_back {
+                width: 52px;
+                height: 52px;
+                border-radius: 100px;
+                border-style: solid;
+                font-family: 'Georgia', serif;
+                font-weight: 400;
+                font-size: 20px;
+                letter-spacing: 1.8px;
+                line-height: 115%;
+                color: $fontColorGray;
+                border-color: $fontColorGray;
+                background-color: $bgSectionOurFriends;
+                margin-left: 20px;
+                transition: 1s;
+                scale: 1;
+
+                &:hover {
+                    transition: 1s;
+                    scale: 1.1;
+                    cursor: pointer;
+                }
+            }
+            .page_now {
+                width: 52px;
+                height: 52px;
+                border-radius: 100px;
+                border-style: none;
+                text-align: center;
+                padding-top: 14px;
+                background-color: $bgColorCream;
+                font-family: 'Georgia', serif;
+                font-weight: 400;
+                font-size: 20px;
+                letter-spacing: 1.8px;
+                line-height: 115%;
+                color: $fontColorBlack;
+                margin: 0px 20px;
+            }
+            .btn_one_arrow_next {
+                width: 52px;
+                height: 52px;
+                border-radius: 100px;
+                border-style: solid;
+                border-color: $borderColorCream;
+                margin-right: 20px;
+                font-family: 'Georgia', serif;
+                font-weight: 400;
+                font-size: 20px;
+                letter-spacing: 1.8px;
+                line-height: 115%;
+                color: $fontColorBlack;
+                background-color: $bgSectionOurFriends;
+                transition: 1s;
+                scale: 1;
+
+                &:hover {
+                    transition: 1s;
+                    scale: 1.1;
+                    cursor: pointer;
+                }
+            }
+            .btn_two_arrow_next {
+                width: 52px;
+                height: 52px;
+                border-radius: 100px;
+                border-style: solid;
+                border-color: $borderColorCream;
+                font-family: 'Georgia', serif;
+                font-weight: 400;
+                font-size: 20px;
+                letter-spacing: 1.8px;
+                line-height: 115%;
+                color: $fontColorBlack;
+                background-color: $bgSectionOurFriends;
+                transition: 1s;
+                scale: 1;
+
+                &:hover {
+                    transition: 1s;
+                    scale: 1.1;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
