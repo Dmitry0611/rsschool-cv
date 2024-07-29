@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Almarai';
+    src: url('../fonts/Almarai-Bold.eot');
+    src: local('Almarai Bold'), local('Almarai-Bold'),
+        url('../fonts/Almarai-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Almarai-Bold.woff2') format('woff2'),
+        url('../fonts/Almarai-Bold.woff') format('woff'),
+        url('../fonts/Almarai-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: url('../fonts/Almarai-Regular.eot');
+    src: local('Almarai'), local('Almarai-Regular'),
+        url('../fonts/Almarai-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Almarai-Regular.woff2') format('woff2'),
+        url('../fonts/Almarai-Regular.woff') format('woff'),
+        url('../fonts/Almarai-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karantina';
+    src: url('../fonts/Karantina-Regular.eot');
+    src: local('Karantina Regular'), local('Karantina-Regular'),
+        url('../fonts/Karantina-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Karantina-Regular.woff2') format('woff2'),
+        url('../fonts/Karantina-Regular.woff') format('woff'),
+        url('../fonts/Karantina-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
