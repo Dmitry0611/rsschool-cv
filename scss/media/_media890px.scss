@@ -1,0 +1,64 @@
+
+@media (max-width: 890px) {
+    //About
+    .about {
+        .container {
+            .about_shelter {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+
+                .about_shelter_left{
+                    width: 100%;
+                    text-align: center;
+                }
+                .about_shelter_right {
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+    //Hepl
+    .help {
+        min-height: 520px;
+        .container {
+            .help_map {
+                .help_map_up_line {
+                    .inner_up {
+                        .inner_text {
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .help_map_down_line {
+                    .inner_down {
+                        .inner_text {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //Donation
+    .donation {
+        padding-bottom: 50px;
+        .container {
+            .donation_flex {
+                display: block;
+                text-align: center;
+
+                .donation_flex_right {
+                    padding-top: 20px;
+
+                    .donation_bank {
+                        padding-bottom: 20px;
+                    }
+                    .donation_card {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
