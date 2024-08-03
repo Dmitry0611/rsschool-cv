@@ -1,6 +1,9 @@
 
 @media (max-width: 768px) {
+
+    //Header
     .header {
+        min-width: 625px;
         .container {
             .logo_nav {
 
@@ -44,6 +47,164 @@
                     &:after {
                         bottom: 0;
                     }
+                }
+            }
+            .header_content_flex {
+                align-items: center;
+                flex-direction: column;
+                .header_content {
+                    margin-top: 50px;
+                    .header_content_title {
+                        font-size: 44px;
+                    }
+                    .header_content_text {
+                        font-size: 15px;
+                    }
+                    .header_content_btn {
+                        width: 120px;
+                        height: 45px;
+                        font-size: 12px;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                    }
+                }
+                .header_content_img {
+                    text-align: center;
+                    margin-top: 60px;
+                    margin-left: 0px;
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+
+    //About
+    .about {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        .container {
+            .about_shelter {
+                display: flex;
+                flex-direction: column-reverse;
+                .about_shelter_left {
+                    margin-top: 80px;
+
+                }
+                .about_shelter_right {
+                    padding-left: 0px;
+
+                    .about_title {
+                        font-size: 35px;
+                    }
+                    .about_text {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Our Friends
+    .our_friends {
+        margin-top: 50px;
+        .container {
+            .our_friends_title {
+                font-size: 35px;
+            }
+        }
+    }
+
+    //Help
+    .help {
+        .container {
+            .help_title {
+                font-size: 35px;
+            }
+            .help_map {
+                .help_map_up_line {
+                   flex-wrap: wrap;
+                   align-items: baseline;
+
+                    .inner_up {
+                        padding-top: 30px;
+                        width: 30%;
+
+                        &:first-child {
+                            padding-top: 0px;
+                        }
+                    }
+                }
+                .help_map_down_line {
+                    flex-wrap: wrap;
+                    align-items: baseline;
+
+                    .inner_down {
+                        padding-top: 30px;
+                        width: 35%;
+                        &:first-child {
+                            padding-top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Donation
+    .donation {
+        .container {
+            .donation_flex {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .donation_flex_left {
+                    margin-top: 60px;
+                }
+                .donation_flex_right {
+                    text-align: left;
+                    margin: 0 auto;
+                    .donation_title {
+                        font-size: 35px;
+                    }
+                    .donation_card {
+                        width: 349px;
+                        margin: 0px;
+                        .card_number {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Footer
+    .footer {
+        .container {
+            .footer_flex {
+                flex-wrap: wrap;
+                align-items: baseline;
+
+                .footer_flex_left {
+                    width: 40%;
+                    padding-right: 0px;
+                    margin: 0px 60px 0px 45px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_right {
+                    width: 40%;
+                    padding-top: 50px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_img {
+                    margin-left: 200px;
+                    margin-top: 65px;
                 }
             }
         }
