@@ -13,11 +13,24 @@
 @import "headerPets.scss";
 @import "our_friendsPets.scss";
 
-// Media
+// Media Index
 
-@import 'media/media1150px.scss';
-@import 'media/media890px.scss';
-@import 'media/media768px.scss';
+@import 'media_index/media1150px.scss';
+@import 'media_index/media890px.scss';
+@import 'media_index/media768px.scss';
+@import 'media_index/media520px.scss';
+@import 'media_index/media400px.scss';
+@import 'media_index/media320px.scss';
+
+
+// Media Pets
+
+@import 'media_pets/media768px.scss';
+@import 'media_pets/media735px.scss';
+
+
+
+
 
 
 
