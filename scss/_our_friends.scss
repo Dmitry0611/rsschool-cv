@@ -18,6 +18,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 60px;
+
             .btn_left {
                 width: 52px;
                 height: 52px;
@@ -31,7 +32,7 @@
             }
             .carousel_cards {
                 display: flex;
-
+                overflow: hidden;
                 .card_inner {
                     background-color: $bgColorCard;
                     width: 270px;

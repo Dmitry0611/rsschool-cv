@@ -1,0 +1,106 @@
+
+@media (max-width: 768px) {
+
+//Header
+    .header_pets {
+        min-width: 100%;
+        height: 120px;
+        padding: 0px 30px;
+        .container {
+            .logo_nav {
+
+                height: 120px;
+                max-width: 768px;
+                display: flex;
+                justify-content: space-between;
+                .header_nav {
+                    display: none;
+                }
+                .burger_menu {
+                    z-index: 5;
+                    display: block;
+                    position: relative;
+                    width: 30px;
+                    height: 25px;
+
+
+                    span {
+                        position: absolute;
+                        left: 0;
+                        width: 30px;
+                        height: 3px;
+                        background-color: black;
+                        top: 37%;
+                        transform: scale(1) translate(0px, 50%);
+                        border-radius: 100px;
+                    }
+                    &:before,
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        width: 30px;
+                        height: 3px;
+                        background-color: black;
+                        border-radius: 100px;
+                    }
+                    &:before {
+                        top: 0;
+                    }
+                    &:after {
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    //Our Friends
+    .our_friends {
+        margin-top: 0px;
+        .container {
+            .cards_dogs {
+                height: 1393px;
+                overflow: hidden;
+                margin: 0px 94px;
+            }
+            .nav_cards {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    //Footer
+    .footer {
+        .container {
+            .footer_flex {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: baseline;
+
+                .footer_flex_left {
+                    width: 40%;
+                    padding-right: 0px;
+                    margin: 0px 60px 0px 45px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_right {
+                    width: 40%;
+                    padding-top: 50px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_img {
+                    margin-left: 200px;
+                    margin-top: 65px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
