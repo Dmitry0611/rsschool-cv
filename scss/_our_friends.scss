@@ -30,55 +30,73 @@
                     cursor: pointer;
                 }
             }
-            .carousel_cards {
-                display: flex;
+            .carousel_wrapper {
+                width: 1090px;
                 overflow: hidden;
-                .card_inner {
-                    background-color: $bgColorCard;
-                    width: 270px;
-                    height: 435px;
-                    border-radius: 9px;
-                    margin-right: 90px;
+                .carousel_cards {
+                    display: flex;
+                    position: relative;
 
-                    &:last-child {
-                        margin-right: 0px;
-                    }
 
-                    .name {
-                        padding-top: 30px;
-                        font-family: 'Georgia', serif;
-                        font-weight: 400;
-                        font-size: 20px;
-                        letter-spacing: 1.8px;
-                        color: $fontColorGray2;
-                        text-align: center;
-                    }
-                    .btn_card {
-                        width: 187px;
-                        height: 52px;
-                        text-align: center;
-                        margin-left: 41.5px;
-                        margin-top: 30px;
-                        font-family: 'Georgia', serif;
-                        font-weight: 400;
-                        font-size: 17px;
-                        letter-spacing: 1.8px;
-                        line-height: 130%;
-                        color: $fontColorBlack;
-                        text-align: center;
-                        background-color: $bgColorCardBtn;
-                        border-radius: 100px;
-                        border-color: $borderColorCream;
-                        border-style: solid;
-                        transition: 1s;
+                    .cards_box {
+                        display: flex;
+                        padding: 0px 53px;
+                        .card_inner {
+                            background-color: $bgColorCard;
+                            width: 270px;
+                            height: 435px;
+                            border-radius: 9px;
+                            margin-right: 90px;
 
-                        &:hover {
-                            cursor: pointer;
-                            background-color: gray;
-                            color: white;
-                            transition: 1s;
+                            &:last-child {
+                                margin-right: 0px;
+                            }
+
+                            .name {
+                                padding-top: 30px;
+                                font-family: 'Georgia', serif;
+                                font-weight: 400;
+                                font-size: 20px;
+                                letter-spacing: 1.8px;
+                                color: $fontColorGray2;
+                                text-align: center;
+                            }
+                            .btn_card {
+                                width: 187px;
+                                height: 52px;
+                                text-align: center;
+                                margin-left: 41.5px;
+                                margin-top: 30px;
+                                font-family: 'Georgia', serif;
+                                font-weight: 400;
+                                font-size: 17px;
+                                letter-spacing: 1.8px;
+                                line-height: 130%;
+                                color: $fontColorBlack;
+                                text-align: center;
+                                background-color: $bgColorCardBtn;
+                                border-radius: 100px;
+                                border-color: $borderColorCream;
+                                border-style: solid;
+                                transition: 1s;
+
+                                &:hover {
+                                    cursor: pointer;
+                                    background-color: gray;
+                                    color: white;
+                                    transition: 1s;
+                                }
+                            }
                         }
                     }
+                }
+                @keyframes cards-left {
+                    from{left: 0px;}
+                    to{left: -2180px;}
+                }
+                .transition {
+                    animation-name: cards-left;
+                    animation-duration: 4s;
                 }
             }
             .btn_right {
