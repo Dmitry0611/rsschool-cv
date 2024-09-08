@@ -14,7 +14,49 @@
                 display: flex;
                 justify-content: space-between;
                 .header_nav {
-                    display: none;
+                    position: absolute;
+                    right: 0;
+                    top: -180%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 320px;
+                    height: 832px;
+                    background-color: #292929;
+                    transition: all 0.3s ease 0.3s;
+
+                    &.active {
+                        top: 0;
+                    }
+
+                    .margin {
+                        margin-top: 250px;
+                        color: $fontColorGray4;
+                    }
+
+                    .brd {
+                        color: $fontColorWhite;
+                        width: 96px;
+                        border-bottom: 3px solid #F1CDB3;
+                    }
+
+                    a {
+                        color: $fontColorGray4;
+                        margin-left: 0px;
+                        margin-bottom: 40px;
+                        font-size: 25px;
+
+                        //&:first-child {
+                        //    margin-left: 39px;
+                        //}
+                        &:last-child {
+                            margin-bottom: 248px;
+                        }
+                        &:hover {
+                            color: $fontColorGray;
+                            border: none;
+                        }
+                    }
                 }
                 .burger_menu {
                     z-index: 5;
@@ -29,10 +71,11 @@
                         left: 0;
                         width: 30px;
                         height: 3px;
-                        background-color: black;
+                        background-color: $fontColorCream;
                         top: 37%;
                         transform: scale(1) translate(0px, 50%);
                         border-radius: 100px;
+                        transition: all 0.3s;
                     }
                     &:before,
                     &:after {
@@ -40,14 +83,30 @@
                         position: absolute;
                         width: 30px;
                         height: 3px;
-                        background-color: black;
+                        background-color: $fontColorCream;
                         border-radius: 100px;
                     }
                     &:before {
                         top: 0;
+                        transition: all 0.3s;
                     }
                     &:after {
                         bottom: 0;
+                        transition: all 0.3s;
+                    }
+                    &.active span {
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(3px, 0px);
+                    }
+                    &.active::before {
+                        top: 50%;
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(0px, 10px);
+                    }
+                    &.active::after {
+                        bottom: 50%;
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(3px, 20px);
                     }
                 }
             }
