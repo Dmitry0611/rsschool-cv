@@ -1,0 +1,165 @@
+
+@media (max-width: 768px) {
+
+//Header
+    .header_pets {
+        min-width: 100%;
+        height: 120px;
+        padding: 0px 30px;
+        .container {
+            .logo_nav {
+
+                height: 120px;
+                max-width: 768px;
+                display: flex;
+                justify-content: space-between;
+                .header_nav {
+                    position: absolute;
+                    right: 0;
+                    top: -180%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 320px;
+                    height: 832px;
+                    background-color: #292929;
+                    transition: all 0.3s ease 0.3s;
+
+                    &.active {
+                        top: 0;
+                    }
+
+                    .margin {
+                        margin-top: 250px;
+                        color: $fontColorGray4;
+                    }
+
+                    .brd {
+                        color: $fontColorWhite;
+                        width: 96px;
+                        border-bottom: 3px solid #F1CDB3;
+                    }
+
+                    a {
+                        color: $fontColorGray4;
+                        margin-left: 0px;
+                        margin-bottom: 40px;
+                        font-size: 25px;
+
+                        //&:first-child {
+                        //    margin-left: 39px;
+                        //}
+                        &:last-child {
+                            margin-bottom: 248px;
+                        }
+                        &:hover {
+                            color: $fontColorGray;
+                            border: none;
+                        }
+                    }
+                }
+                .burger_menu {
+                    z-index: 5;
+                    display: block;
+                    position: relative;
+                    width: 30px;
+                    height: 25px;
+
+
+                    span {
+                        position: absolute;
+                        left: 0;
+                        width: 30px;
+                        height: 3px;
+                        background-color: $fontColorCream;
+                        top: 37%;
+                        transform: scale(1) translate(0px, 50%);
+                        border-radius: 100px;
+                        transition: all 0.3s;
+                    }
+                    &:before,
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        width: 30px;
+                        height: 3px;
+                        background-color: $fontColorCream;
+                        border-radius: 100px;
+                    }
+                    &:before {
+                        top: 0;
+                        transition: all 0.3s;
+                    }
+                    &:after {
+                        bottom: 0;
+                        transition: all 0.3s;
+                    }
+                    &.active span {
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(3px, 0px);
+                    }
+                    &.active::before {
+                        top: 50%;
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(0px, 10px);
+                    }
+                    &.active::after {
+                        bottom: 50%;
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(3px, 20px);
+                    }
+                }
+            }
+        }
+    }
+
+    //Our Friends
+    .our_friends {
+        margin-top: 0px;
+        .container {
+            .cards_dogs {
+                height: 1393px;
+                overflow: hidden;
+                margin: 0px 94px;
+            }
+            .nav_cards {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    //Footer
+    .footer {
+        .container {
+            .footer_flex {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: baseline;
+
+                .footer_flex_left {
+                    width: 40%;
+                    padding-right: 0px;
+                    margin: 0px 60px 0px 45px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_right {
+                    width: 40%;
+                    padding-top: 50px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_img {
+                    margin-left: 200px;
+                    margin-top: 65px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

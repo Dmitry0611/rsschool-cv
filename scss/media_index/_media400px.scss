@@ -1,0 +1,137 @@
+
+@media (max-width: 400px) {
+    // Header
+    .header {
+        .container {
+            .header_content_flex {
+                .header_content {
+                    .header_content_title {
+                        text-align: center;
+                        letter-spacing: 2px;
+                        font-size: 25px;
+                        line-height: 32.5px;
+                    }
+                    .header_content_text {
+                        text-align: center;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                    .header_content_btn {
+                        width: 60%;
+                        font-size: 17px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    // About
+    .about {
+        .container {
+            .about_shelter {
+                .about_shelter_left {
+                    img {
+                        width: 75%;
+                    }
+                }
+                .about_shelter_right {
+                    .about_title {
+                        text-align: center;
+                        letter-spacing: 2px;
+                        font-size: 25px;
+                        line-height: 32.5px;
+                    }
+                    .about_text {
+                        font-size: 15px;
+                        line-height: 24px;
+                        text-align: justify;
+                        padding: 0px 25px;
+                    }
+                }
+            }
+        }
+    }
+    //Our Friends
+    .our_friends {
+        .container {
+            .our_friends_title {
+                text-align: center;
+                letter-spacing: 2px;
+                font-size: 25px;
+                line-height: 32.5px;
+            }
+            .carousel {
+                display: block;
+                position: relative;
+                .btn_left {
+                    position: absolute;
+                    top: 456px;
+                    left: 91px;
+                }
+                .carousel_cards {
+                    margin-left: 65px;
+                }
+                .btn_right {
+                    position: absolute;
+                    right: 105px;
+                    margin: 20px 0 0 0;
+                }
+            }
+            .btn_get {
+                margin-top: 115px;
+            }
+        }
+    }
+
+    // Help
+    .help {
+        .container {
+            .help_title {
+                text-align: center;
+                letter-spacing: 2px;
+                font-size: 25px;
+                line-height: 32.5px;
+            }
+            .help_map {
+                .help_map_up_line {
+                    .inner_up {
+                        width: 50%;
+                    }
+                }
+                .help_map_down_line {
+                    .inner_down {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    //Donation
+    .donation {
+        .container {
+            .donation_flex {
+                .donation_flex_right {
+                    padding: 20px 20px 0 20px;
+                    .donation_title {
+                        text-align: center;
+                        letter-spacing: 2px;
+                        font-size: 25px;
+                        line-height: 32.5px;
+                    }
+                    .donation_bank {
+                        text-align: center;
+                        font-size: 15px;
+                    }
+                    .donation_card {
+                        width: 100%;
+                        .card_number {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

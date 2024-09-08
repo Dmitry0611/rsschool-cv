@@ -1,0 +1,62 @@
+
+@media (max-width: 320px) {
+    //Our Friends
+    .our_friends {
+        .container {
+            .carousel {
+                display: block;
+                position: relative;
+                .btn_left {
+                    position: absolute;
+                    top: 456px;
+                    left: 53px;
+                }
+                .carousel_cards {
+                    margin-left: 30px;
+                }
+                .btn_right {
+                    position: absolute;
+                    right: 62px;
+                    margin: 20px 0 0 0;
+                }
+            }
+            .btn_get {
+                margin-top: 115px;
+            }
+        }
+    }
+
+    //Donation
+    .donation {
+        .container {
+            .donation_flex {
+                .donation_flex_left {
+                    img {
+                        width: 90%;
+                    }
+                }
+                .donation_flex_right {
+                    .donation_card {
+                        .card_number {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Footer
+    .footer {
+        .container {
+            .footer_flex {
+                .footer_flex_img {
+                    margin-left: 20px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
