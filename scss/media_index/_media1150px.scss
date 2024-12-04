@@ -1,0 +1,98 @@
+
+@media (max-width: 1150px) {
+
+    //Header
+    .header {
+        padding: 0px 20px;
+        min-height: 700px;
+        .container {
+            .header_content_flex {
+                .header_content {
+                    .header_content_title {
+                        font-size: 35px;
+                    }
+                    .header_content_btn {
+                        width: 170px;
+                    }
+                }
+                .header_content_img {
+                    img {
+                        width: 500px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Our Friends
+    .our_friends {
+        .container {
+            .carousel {
+                .btn_left {
+                    margin-left: 20px;
+                    margin-right: 10px;
+                }
+                .btn_right {
+                    margin-right: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    //Help
+    .help {
+        .container {
+            .help_map {
+                padding: 0px 20px;
+            }
+        }
+    }
+
+    //Footer
+    .footer {
+        min-height: 280px;
+        .container {
+            .footer_flex {
+                padding: 20px 20px 0px 20px;
+                .footer_flex_left {
+                    padding-right: 60px;
+                    .footer_title {
+                        font-size: 25px;
+                    }
+                    .email {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                    .phone_number {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .footer_flex_right {
+                    .footer_title {
+                        font-size: 25px;
+                    }
+                    .location_boston {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                    .location_london {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .footer_flex_img {
+                    margin-left: 60px;
+                    img {
+                        width: 252px;
+                    }
+                }
+            }
+        }
+    }
+}

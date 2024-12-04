@@ -1,0 +1,58 @@
+
+@media (max-width: 768px) {
+
+    // Donation
+.donation {
+    .container {
+        .donation_flex {
+            .donation_flex_left {
+                img {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+// Footer
+.footer {
+    .container {
+        .footer_flex {
+            display: block;
+            padding: 30px 20px 0px 20px;
+
+            .footer_flex_left {
+                text-align: center;
+                width: 100%;
+                margin: 0 auto;
+
+                .email {
+                    justify-content: center;
+                }
+                .phone_number {
+                    justify-content: center;
+                }
+            }
+            .footer_flex_right {
+                text-align: center;
+                width: 100%;
+                margin: 0 auto;
+
+                .location_boston {
+                    justify-content: center;
+                }
+                .location_london {
+                    justify-content: center;
+                }
+            }
+            .footer_flex_img {
+                margin-left: 110px;
+
+                img {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,60 @@
+
+.help {
+    min-height: 611px;
+    padding-top: 80px;
+    background-color: $bgColorWhite;
+    margin-bottom: 100px;
+    .container {
+
+        .help_title {
+            font-family: 'Georgia', serif;
+            font-weight: 400;
+            font-size: 35px;
+            letter-spacing: 1.8px;
+            line-height: 130%;
+            color: $fontColorGray2;
+            text-align: center;
+        }
+        .help_map {
+
+            .help_map_up_line {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 60px;
+                .inner_up {
+                    text-align: center;
+
+                    .inner_text {
+                        padding-top: 30px;
+                        font-family: 'Georgia', serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        letter-spacing: 1.8px;
+                        line-height: 130%;
+                        color: $fontColorGray2;
+                        text-align: center;
+                    }
+                }
+            }
+            .help_map_down_line {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 55px;
+                .inner_down {
+                    text-align: center;
+
+                    .inner_text {
+                        padding-top: 30px;
+                        font-family: 'Georgia', serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        letter-spacing: 1.8px;
+                        line-height: 130%;
+                        color: $fontColorGray2;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,270 @@
+
+@media (max-width: 768px) {
+
+    //Header
+    .header {
+        min-width: 100%;
+        .container {
+            .logo_nav {
+                height: 120px;
+                max-width: 768px;
+                display: flex;
+                justify-content: space-between;
+
+
+                .header_nav {
+                    position: absolute;
+                    right: 0;
+                    top: -180%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 320px;
+                    height: 832px;
+                    background-color: #292929;
+                    transition: all 0.3s ease 0.3s;
+
+                    &.active {
+                        top: 0;
+                    }
+
+                    .margin {
+                        margin-top: 250px;
+                        color: $fontColorWhite;
+                        width: 190px;
+                        border-bottom: 3px solid #F1CDB3;
+                    }
+
+                    a {
+                        margin-bottom: 40px;
+                        margin-left: 0px;
+                        font-size: 25px;
+
+                        //&:first-child {
+                           // margin-left: 39px;
+                        //}
+                        &:last-child {
+                            margin-bottom: 248px;
+                        }
+                        &:hover {
+                            color: $fontColorGray;
+                            border: none;
+                        }
+                    }
+                }
+                .burger_menu {
+                    position: relative;
+                    z-index: 5;
+                    display: block;
+                    position: relative;
+                    width: 30px;
+                    height: 25px;
+                    margin-right: 20px;
+
+                    span {
+                        position: absolute;
+                        left: 0;
+                        width: 30px;
+                        height: 3px;
+                        background-color: $fontColorCream;
+                        top: 37%;
+                        transform: scale(1) translate(0px, 50%);
+                        border-radius: 100px;
+                        transition: all 0.3s;
+                    }
+                    &:before,
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        width: 30px;
+                        height: 3px;
+                        background-color: $fontColorCream;
+                        border-radius: 100px;
+
+                    }
+                    &:before {
+                        top: 0;
+                        transition: all 0.3s;
+                    }
+                    &:after {
+                        bottom: 0;
+                        transition: all 0.3s;
+                    }
+                    &.active span {
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(3px, 0px);
+                    }
+                    &.active::before {
+                        top: 50%;
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(0px, 10px);
+                    }
+                    &.active::after {
+                        bottom: 50%;
+                        transition: all 0.3s;
+                        transform: rotate(90deg) translate(3px, 20px);
+                    }
+                }
+            }
+            .header_content_flex {
+                align-items: center;
+                flex-direction: column;
+                .header_content {
+                    margin-top: 50px;
+                    .header_content_title {
+                        font-size: 44px;
+                    }
+                    .header_content_text {
+                        font-size: 15px;
+                    }
+                    .header_content_btn {
+                        width: 120px;
+                        height: 45px;
+                        font-size: 12px;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                    }
+                }
+                .header_content_img {
+                    text-align: center;
+                    margin-top: 60px;
+                    margin-left: 0px;
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+
+    //About
+    .about {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        .container {
+            .about_shelter {
+                display: flex;
+                flex-direction: column-reverse;
+                .about_shelter_left {
+                    margin-top: 80px;
+
+                }
+                .about_shelter_right {
+                    padding-left: 0px;
+
+                    .about_title {
+                        font-size: 35px;
+                    }
+                    .about_text {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Our Friends
+    .our_friends {
+        margin-top: 50px;
+        .container {
+            .our_friends_title {
+                font-size: 35px;
+            }
+        }
+    }
+
+    //Help
+    .help {
+        .container {
+            .help_title {
+                font-size: 35px;
+            }
+            .help_map {
+                .help_map_up_line {
+                   flex-wrap: wrap;
+                   align-items: baseline;
+
+                    .inner_up {
+                        padding-top: 30px;
+                        width: 30%;
+
+                        &:first-child {
+                            padding-top: 0px;
+                        }
+                    }
+                }
+                .help_map_down_line {
+                    flex-wrap: wrap;
+                    align-items: baseline;
+
+                    .inner_down {
+                        padding-top: 30px;
+                        width: 35%;
+                        &:first-child {
+                            padding-top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Donation
+    .donation {
+        .container {
+            .donation_flex {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .donation_flex_left {
+                    margin-top: 60px;
+                }
+                .donation_flex_right {
+                    text-align: left;
+                    margin: 0 auto;
+                    .donation_title {
+                        font-size: 35px;
+                    }
+                    .donation_card {
+                        width: 349px;
+                        margin: 0px;
+                        .card_number {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //Footer
+    .footer {
+        .container {
+            .footer_flex {
+                flex-wrap: wrap;
+                align-items: baseline;
+
+                .footer_flex_left {
+                    width: 40%;
+                    padding-right: 0px;
+                    margin: 0px 60px 0px 45px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_right {
+                    width: 40%;
+                    padding-top: 50px;
+                    .footer_title {
+                        font-size: 35px;
+                    }
+                }
+                .footer_flex_img {
+                    margin-left: 200px;
+                    margin-top: 65px;
+                }
+            }
+        }
+    }
+}
+
